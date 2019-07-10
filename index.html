@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta lang="zh">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>电话号码查询</title>
+	<link rel="stylesheet" href="css/index.css">
+	<script type="text/javascript" src="javascript/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="javascript/datas.js"></script>
+</head>
+<body>
+	<div class="page">
+		<div class="phonenum_warrp">
+	        <div class="phonenum_form">
+				<form id="phonenum_input" name="phonenum_input" method="post" onsubmit="return chkPhoneNum();" autocomplete="off">
+					<li class="form_item">
+						<input type="text" id="phonenum" name="PhoneNum" class="form_input"required/>
+						<input type="button" name="查询" value="查询" class="form_btn" id="query" onclick="chkPhoneNum();"/>
+					</li>
+					<li>
+						 <p id="result" class="information"></p>
+						 <p id="phonenumPrompt" class="information"></p>
+					</li>
+	           </form>
+	           <iframe id="id_iframe" name="rfFrame" style="display:none;"></iframe>
+	           <script type="text/javascript">
+	           	    document.forms[0].target="rfFrame";
+	           </script>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="javascript/javascript.js"></script>
+</body>
+</html>

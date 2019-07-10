@@ -1,0 +1,90 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 微软雅黑;
+}
+
+li{
+	list-style: none;
+	margin-top: 13px;
+}
+
+body{
+	background: #FFFFFF;
+}
+
+p{
+	width: 348px;
+	height: 100%;
+	margin: 0 auto;
+	margin-top: 20px;
+	text-align: left;
+	font-size: 15px;
+	display:inline;
+	-webkit-overflow-wrap:break-word;
+	-moz-overflow-wrap:break-word;
+	overflow-wrap:break-word;
+}
+
+.page{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.phonenum_warrp{
+    margin: 0 auto;
+    padding-top: 188px;
+    font-size: 14px;
+}
+
+.phonenum_form{
+	text-align: center;
+}
+
+.form_item{
+	box-sizing: border-box;
+}
+
+.form_input{
+	border: solid 1px #ddd;
+	border-radius: 5px;
+	height: 38px;
+	line-height: 38px;
+	width: 278px;
+	font-size: 16px;
+	padding-left: 10px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.form_btn{
+	background-color: #45B549;
+	width: 70px;
+	height: 38px;
+	margin-top: 3px;
+	color: black;
+	border: none;
+	border-radius: 4px;
+	font-size: 15px;
+	cursor: pointer;
+}
+
+.form_btn:hover{
+	background-color: #45B572;
+}
+
+.form_btn:focus{
+	outline:none;
+	border-radius: 4px;
+}
+
+.form_input:focus{
+	border-radius: 5px;
+}
+
+#result{
+	margin-left: -76px;
+}
